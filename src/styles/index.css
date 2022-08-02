@@ -167,3 +167,67 @@ background-position: center;
 height: 80vh;
 
 }
+
+
+/* prodcasr page  */
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+
+/* .row
+ { 
+   display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  text-align: center;
+row-gap: 30px;
+  padding: 80px;
+
+  ;} */
+
+  .cast{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    text-align: center;
+  row-gap: 15px;
+  column-gap: 15px;
+    padding: 80px;
+
+  }
+  .most{
+    margin-left: 900px;
+    margin-top: 50px;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Style the counter cards */
+.card {
+
+  padding: 5px;
+  text-align: center;
+  width:200px;
+
+}
+
+.cast-image{
+  width: 100%;
+  height:300px;
+  
+    object-fit: cover;
+}
+
