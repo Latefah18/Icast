@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 body {
  background-color: #F6F8F9;
   margin: 0;
@@ -143,18 +144,44 @@ hr{
 .content {
   background: #f9f9f9;
   height:fit-content;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
+
+  
+/* info profile */
+} .card-body table {
+
+  /* background-color: #fff; */
+    border-radius: 18px;
+    background-color: #D3CEDF;
+    /* box-shadow: 1px 1px 8px 0 blueviolet; */
+    margin-left: 66px;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+    border: none;
+    font-size: 16px;
+    height: 270px;
+    width: 80%;
+    color: #7E49AC;
+    text-align: center;
+  /* border: none;
+  font-size: 16px;
+  height: 100px;
+  width: 80%;
+  gap: 30px; */
+  
 }
 
+
 .edit{
-  background-color: #3987f0;
+  background-color:  #7E49AC;
   color: rgb(255, 255, 255);
   padding: 10px;
   margin-top: -60px;
 margin-left: 75%;
   border: none;
   cursor: pointer;
-  width: 80px;
+  width: 90px;
 border-radius: 15px;
 
 }
@@ -166,4 +193,12 @@ background-repeat: no-repeat;
 background-position: center;
 height: 80vh;
 
+}
+.h3{
+  font-family: 'Dancing Script', cursive;
+  color: #7E49AC;
+  text-align:left;
+  padding: 13px;
+  text-size-adjust: 10px;
+  
 }
