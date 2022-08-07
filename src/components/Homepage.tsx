@@ -7,8 +7,8 @@ export function Homepages() {
 <div className="part1">     <img src="logoNameb.png"/></div><br></br><br></br>
 <div>
   <ul>
-  <li><a href='#new' className='new'><Link to={'/register'}> تسجيل </Link>  </a></li>
-    <li><a href='#listen' className='station'> <Link to={'/login'}> تسجيل دخول </Link>   </a></li>
+  {/* <li><a href='#new' className='new'><Link to={'/register'}> تسجيل </Link>  </a></li>
+    <li><a href='#listen' className='station'> <Link to={'/login'}> تسجيل دخول </Link>   </a></li> */}
     </ul>
     </div>
 <div className="part2">
