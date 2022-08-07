@@ -25,8 +25,12 @@
 }
 .libr_list{
     direction: rtl;
+    padding: 50px;
+   
    
 }
+
+
 /* .part1{
   float: left;
   display: flex;
@@ -50,5 +54,5 @@
 }
 .part2{
  padding: 40px;
- color:#7E49AC
+ color:#7E49AC;
 }
