@@ -3,7 +3,11 @@
 
 }
 .home{
-    direction: rtl;
+    /* direction: rtl; */
+    display: flex;
+    justify-content: right;
+    text-align: right;
+  
 }
 .libr{
     width: 100%;
@@ -33,6 +37,7 @@
 .home{
   display: flex;
   justify-content: center;
+  flex-direction: row;
   
 }
 .limg{
@@ -42,4 +47,8 @@
 .part1{
     direction: ltr;
     margin: 6rem;
+}
+.part2{
+ padding: 40px;
+ color:#7E49AC
 }

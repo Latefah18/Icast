@@ -28,7 +28,7 @@ export function Register(){
             </div>
 
             
-            <input type="button" value="التسجيل " className="sin-btn" />
+            <Link to={"/profile"}>    <input type="button" value="التسجيل " className="sin-btn" /></Link>
         </div>
       
     </div>

@@ -61,7 +61,7 @@ align-items: center;
       font-family: 'Overpass Mono', monospace;
       letter-spacing: -1px;
     }.sin-btn {
-      width: 100%;
+      width: 93%;
       background-color: #7E49AC;
       border: 1px solid   #7E49AC;
       box-shadow: 1px 1px 8px 0 blueviolet;
@@ -126,7 +126,7 @@ align-items: center;
 
 
     .log-btn {
-      width: 100%;
+      width: 93%;
       background-color: #7E49AC;
       border: 1px solid   #7E49AC;
       box-shadow: 1px 1px 8px 0 blueviolet;
