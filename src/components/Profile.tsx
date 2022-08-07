@@ -4,11 +4,25 @@ import { AiFillEdit } from "react-icons/ai";
 
 export function Profile() {
     const [name,setName]=useState('Latefah')
+    const [username,setUserName]=useState('toofee')
+    const [email,setEmail]=useState('Icast_2022@gmail.com                                              ')
+
 
 
     function newname(){
         const newname:any=prompt('أدخل الإسم هنا ')
         setName(newname)
+      }
+
+      function newUser(){
+        const newUser:any=prompt('أدخل اسم المستخدم هنا ')
+        setUserName(newUser)
+      }
+
+
+      function newEmail(){
+        const  newEmail:any=prompt('أدخل البريد الإلكتروني هنا ')
+        setEmail( newEmail)
       }
 
 
@@ -23,7 +37,7 @@ export function Profile() {
   </div>
   
 
-  <  button className="edit"type="submit" onClick={newname} >  Edit < AiFillEdit className ='iconInstagram' size={14}/> </button>
+ 
   <br/>
   <div className="content">
        <div className="card-body">
@@ -34,20 +48,20 @@ export function Profile() {
 <table>
               <tbody>
                   <tr>
-                      <td>الاسم كامل</td>
+                      <td> الاسم كامل< AiFillEdit onClick={newname} className ='iconInstagram' size={14}/></td>
                       <td>:</td>
                       <td>{name}</td>
                   </tr>
                   <tr>
 
-                  <td>اسم المستخدم</td>
+                  <td>اسم المستخدم< AiFillEdit onClick={newUser} className ='iconInstagram' size={14}/> </td>
                       <td>:</td>
-                      <td>tofee.b</td>
+                      <td>{username}</td>
                   </tr>
                   <tr>
-                      <td>البريد الإلكتروني</td>
+                      <td>البريد الإلكتروني< AiFillEdit onClick={newEmail} className ='iconInstagram' size={14}/></td>
                       <td>:</td>
-                      <td>imlatefah@gmail.com</td>
+                      <td>{email}</td>
                   </tr>
 
                   <tr>

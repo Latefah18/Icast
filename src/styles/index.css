@@ -1,3 +1,5 @@
+/* Import Font Dancing Script */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 body {
  background-color: #F6F8F9;
   margin: 0;
@@ -396,5 +398,8 @@ audio{
 audio::-webkit-media-controls-panel {
   background-color: #e1d5eb;
   
+}.h3{
+  color: #7E49AC;
+  font-family: 'Dancing Script', cursive;
 }
 
